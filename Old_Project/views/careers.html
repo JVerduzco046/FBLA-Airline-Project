@@ -1,0 +1,180 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grand Canyon Air</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir%20copy.png?v=1575493862809"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  bootstrap css sheet    -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- FontAwesome Stylesheet link     -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <img
+        class="img-fluid logo"
+        src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir.png?v=1575411778695"
+        alt="Grand Canyon Air logo"
+        id="logo"
+      />
+
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/flights">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/info">Travel Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/frequentflyer">Frequent Flyers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/input">Talk to Us!</a>
+          </li>
+        </ul>
+        <hr />
+      </nav>
+
+      <section class="center">
+        <h1 class="text-center">
+          Careers at Grand Canyon Airlines
+        </h1>
+
+        <p style="margin: 30px auto;">
+          Thinking about a career at Grand Canyon airlines? Let us direct you to
+          the place you need to be!
+        </p>
+
+        <div class="card-group col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2Fhat.jpeg?v=1576100300639"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pilot</h5>
+              <p class="card-text">
+                Flying our planes from California's beautiful coast to the
+                stunning New Mexico desert
+              </p>
+              <a href="#" class="btn btn-orange">Learn more</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2Finterior.jpeg?v=1576100295924"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Air Stewardess</h5>
+              <p class="card-text">
+                Bringing comfort and solace to the skies
+              </p>
+              <a href="#" class="btn btn-orange">Learn more</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2Fairport.jpeg?v=1576098765918"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Airport</h5>
+              <p class="card-text">
+                From baggage checking to ticket selling, our airports have
+                plenty of openings for people off all talents
+              </p>
+              <a href="#" class="btn btn-orange">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-group col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2Fcorporate.jpeg?v=1576098771076"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Corporate</h5>
+              <p class="card-text">
+                Backbone that keeps our company up and running
+              </p>
+              <a href="#" class="btn btn-orange">Learn more</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2Fwrench.jpeg?v=1576103013217"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Technician</h5>
+              <p class="card-text">
+                Keeping our planes shiny and new
+              </p>
+              <a href="#" class="btn btn-orange">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="mr-4 ml-4">
+          <i class="fa fa-twitter fa-lg "></i>
+          <b> | </b>
+          <i class="fa fa-facebook fa-lg"></i>
+          <b> | </b>
+          <i class="fa fa-youtube fa-lg"></i>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

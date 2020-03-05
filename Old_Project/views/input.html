@@ -1,0 +1,144 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grand Canyon Air</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir%20copy.png?v=1575493862809"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- FontAwesome Stylesheet link     -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <img
+        class="img-fluid logo"
+        src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir.png?v=1575411778695"
+        alt="Grand Canyon Air logo"
+        id="logo"
+      />
+
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/flights">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/info">Travel Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/frequentflyer">Frequent Flyers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/input">Talk to Us!</a>
+          </li>
+        </ul>
+        <hr />
+      </nav>
+
+      <form class=" col mr-5 clearfix">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            placeholder="name@example.com"
+            aria-describedby="emailHelp"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="">Your Name</label>
+          <input type="input" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="">Your Flight</label>
+          <input type="input" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Thoughts </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
+
+      <button type="button" class="btn btn-orange">Submit</button>
+
+      <footer>
+        <div class="mr-4 ml-4">
+          <i class="fa fa-twitter fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-facebook fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-youtube fa-lg"></i>
+        </div>
+
+        <nav>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/careers">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

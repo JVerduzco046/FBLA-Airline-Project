@@ -1,0 +1,140 @@
+/* styles */
+/* called by your view template */
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+  
+  .nav-link {
+    color: rgb(242, 109, 0);
+  }
+  
+  .nav-link:hover {
+    color: rgb(200, 50, 0);
+  }
+  
+  .test-img {
+    width: 20%;
+    float: right;
+  }
+  
+  .btn-orange{
+    background-color: orange;
+    margin: auto;
+    display:block;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table; 
+    clear: both; 
+  }
+  
+  .fa-twitter{
+    color: #1DA1F2;
+  }
+  
+  .fa-facebook{
+    color: #3C5898;
+  }
+  
+  .fa-youtube{
+    color: #FF0000;
+  }
+  
+  .card{
+    border: 5px 
+  }
+  
+  main {
+    background-color: white;
+    border-radius: 40px 100px / 120px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  body {
+    background-color: rgb(242, 109, 0);
+    margin: 2em;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  form {
+    margin-bottom: 25px;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 3px;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: none;
+  }
+  
+  button:active {
+    box-shadow: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  
+  #logo {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    img#logo {
+      align-content: center;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 600px){
+    div.card-group{
+      margin-left: 10%;
+    }
+  }

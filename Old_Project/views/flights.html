@@ -1,0 +1,159 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grand Canyon Air</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir%20copy.png?v=1575493862809"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- FontAwesome Stylesheet link     -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <img
+        class="img-fluid logo"
+        src="https://cdn.glitch.com/085175c9-2bc2-48ab-93b4-2c2bba64fc3c%2FGCAir.png?v=1575411778695"
+        alt="Grand Canyon Air logo"
+        id="logo"
+      />
+
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/flights">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/info">Travel Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/frequentflyer">Frequent Flyers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/input">Talk to Us!</a>
+          </li>
+        </ul>
+        <hr />
+      </nav>
+      <div class="container">
+        <form class="col-sm">
+          <div class="row mx-auto">
+            <div class="col-md mx-auto">
+              <label for="">From</label>
+              <select class="custom-select">
+                <option selected>Please choose a place to fly from </option>
+                <option value="1">Arizona</option>
+                <option value="2">California</option>
+                <option value="3">Colorado</option>
+                <option value="4">Nevada</option>
+                <option value="5">New Mexico</option>
+                <option value="6">Utah</option>
+              </select>
+            </div>
+            <div class="col-md mx-auto">
+              <label for="">To</label>
+              <select class="custom-select center">
+                <option selected>Please choose a place to fly to</option>
+                <option value="1">Arizona</option>
+                <option value="2">California</option>
+                <option value="3">Colorado</option>
+                <option value="4">Nevada</option>
+                <option value="5">New Mexico</option>
+                <option value="6">Utah</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md" style="margin-bottom: 10px;">
+            <label>Class</label>
+            <select class="custom-select center">
+              <option selected>Please choose a class</option>
+              <option value="1">Economy</option>
+              <option value="2">Business</option>
+              <option value="3">First</option>
+            </select>
+          </div>
+
+          <div class="row mx-auto">
+            <div class="col">
+              <label style="margin-left: 40%"
+                >Round trip <input type="radio" name="trip" value="round"
+              /></label>
+            </div>
+
+            <div class="col">
+              <label style="margin-left: 40%"
+                >One Way <input type="radio" name="trip" value="one"
+              /></label>
+            </div>
+          </div>
+
+          <div class="row mx-auto">
+            <label>Departure Date</label>
+            <input placeholder="mm/dd/yyyy" />
+
+            <label>Return Date</label>
+            <input placeholder="mm/dd/yyyy" />
+          </div>
+        </form>
+      </div>
+
+      <button type="button" class="btn btn-orange">Submit</button>
+
+      <footer>
+        <div class="mr-4 ml-4">
+          <i class="fa fa-twitter fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-facebook fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-youtube fa-lg"></i>
+        </div>
+
+        <nav>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/careers">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>FireFly Airlines Airlines</title>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="main.css">
+            </head>
+  <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary " >
+                <img src="FireFly_Logo.png" alt="" style="width:10%;">
+            <a class="navbar-brand" href="#">FireFly Airlines 
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId" >
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="flights.html">Flights</a>
+                      </li>
+                
+                      <li class="nav-item">
+                        <a class="nav-link" href="travel.html">Travel Information</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="flyers.html">Frequent Flyers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Talk to Us!</a>
+                      </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+      <div class="container">
+        <form class="col-sm">
+          <div class="row mx-auto">
+            <div class="col-md mx-auto">
+              <label for="">From</label>
+              <select class="custom-select">
+                <option selected>Please choose a place to fly from </option>
+                <option value="1">Arizona</option>
+                <option value="2">California</option>
+                <option value="3">Colorado</option>
+                <option value="4">Nevada</option>
+                <option value="5">New Mexico</option>
+                <option value="6">Utah</option>
+              </select>
+            </div>
+            <div class="col-md mx-auto">
+              <label for="">To</label>
+              <select class="custom-select center">
+                <option selected>Please choose a place to fly to</option>
+                <option value="1">Arizona</option>
+                <option value="2">California</option>
+                <option value="3">Colorado</option>
+                <option value="4">Nevada</option>
+                <option value="5">New Mexico</option>
+                <option value="6">Utah</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md" style="margin-bottom: 10px;">
+            <label>Class</label>
+            <select class="custom-select center">
+              <option selected>Please choose a class</option>
+              <option value="1">Economy</option>
+              <option value="2">Business</option>
+              <option value="3">First</option>
+            </select>
+          </div>
+
+          <div class="row mx-auto">
+            <div class="col">
+              <label style="margin-left: 40%"
+                >Round trip <input type="radio" name="trip" value="round"
+              /></label>
+            </div>
+
+            <div class="col">
+              <label style="margin-left: 40%"
+                >One Way <input type="radio" name="trip" value="one"
+              /></label>
+            </div>
+          </div>
+
+          <div class="row mx-auto">
+            <label>Departure Date</label>
+            <input placeholder="mm/dd/yyyy" />
+
+            <label>Return Date</label>
+            <input placeholder="mm/dd/yyyy" />
+          </div>
+        </form>
+      </div>
+
+      <button type="button" class="btn btn-orange">Submit</button>
+
+      <footer>
+        <div class="mr-4 ml-4">
+          <i class="fa fa-twitter fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-facebook fa-lg"></i>
+          <b class="fa-lg"> | </b>
+          <i class="fa fa-youtube fa-lg"></i>
+        </div>
+
+        <nav>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/careers">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
