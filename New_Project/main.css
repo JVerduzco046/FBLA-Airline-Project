@@ -47,6 +47,9 @@
     border-color: #ff4b70;
 }
 
+.form-control{
+    color: #0075C4;
+}
 .form-control:focus{
     color: #050505;
     background-color: #fff;
@@ -79,4 +82,49 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.cards{
+    width: 100%;
+    display: flexbox;
+    margin:0px;
+    padding: 10px;
+background: white;
+
+}
+.cards::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.card-area{
+    width: 75%;
+    display: block;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    clear: both;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-text {
+    color:050505;
+    width: 50%;
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+
+.card-image img{
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+/* footer styles */
+footer{
+    background: white; 
+    text-align: center;
+    clear: both;
 }
