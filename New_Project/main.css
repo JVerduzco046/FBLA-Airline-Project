@@ -2,7 +2,7 @@
 /* #050505 RICH BLACK  */
 /* #0075C4 OCEAN BOAT BLUE */
 /* #FFFFFF WHITE */
-/* #FF4C70 INFRA RED */
+/*  #ff4b70 INFRA RED */
 /* basic nav styles making the background transparent and the words black  */
 .navbar-dark .navbar-brand{
     color:#0075C4 ;
@@ -157,4 +157,25 @@ label{
     border-color: #0075C4;
     margin: 0px;
     width: 27%;
+}
+
+/* Brightness Members Page Styles */
+.table {
+    color: #050505;
+}
+
+td{
+    font-weight: bold;
+    color: #FF4C70;
+}
+
+.card{
+    border: none;
+}
+.card-body{
+    color: #050505;
+    background: white;
+}
+.card-title{
+    color: #ff4b70;
 }
