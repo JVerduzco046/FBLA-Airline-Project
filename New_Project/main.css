@@ -27,36 +27,6 @@
     display: flex;
     }
 
-/*  styles for the nav changing colors font and a small animation for when moving from page to page */
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
-    color: #FF4C70;
-    border-bottom: 1px #FF4C70 solid;
-}
-.navbar-dark .navbar-brand:focus,.navbar-dark .navbar-brand:hover{
-    color: #FF4C70;
-    border-bottom: 1px #FF4C70 solid;
-}
-.btn-outline-success {
-    color: #0075C4;
-    border-color: #0075C4;
-}
-
-.btn-outline-success:hover{
-    color: #fff;
-    background-color: #ff4b70;
-    border-color: #ff4b70;
-}
-
-.form-control{
-    color: #0075C4;
-}
-.form-control:focus{
-    color: #050505;
-    background-color: #fff;
-    border-color: #ff4b70;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(255, 75, 111, 0.44);
-}
 
 /* Body Styles */
 
@@ -127,4 +97,64 @@ footer{
     background: white; 
     text-align: center;
     clear: both;
+}
+
+/* button styles */
+
+.btn{
+
+    color: #0075C4;
+    border-color: #0075C4;
+    margin-left: 47%;
+    width: 6%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #ff4b70;
+    border-color: #ff4b70;
+}
+/* Form Styles for the Flights page */
+.row{
+    justify-content: center;
+}
+label{
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+/*  styles for the nav changing colors font and a small animation for when moving from page to page */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #FF4C70;
+    border-bottom: 1px #FF4C70 solid;
+}
+.navbar-dark .navbar-brand:focus,.navbar-dark .navbar-brand:hover{
+    color: #FF4C70;
+    border-bottom: 1px #FF4C70 solid;
+}
+
+
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #ff4b70;
+    border-color: #ff4b70;
+}
+
+.form-control{
+    color: #0075C4;
+}
+.form-control:focus{
+    color: #050505;
+    background-color: #fff;
+    border-color: #ff4b70;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 75, 111, 0.44);
+}
+
+.btn-outline-success {
+    color: #0075C4;
+    border-color: #0075C4;
+    margin: 0px;
+    width: 27%;
 }
